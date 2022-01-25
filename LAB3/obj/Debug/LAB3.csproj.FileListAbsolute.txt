@@ -1,0 +1,8 @@
+D:\Учеба\ADO.NET\CW\LAB3\bin\Debug\LAB3.exe.config
+D:\Учеба\ADO.NET\CW\LAB3\bin\Debug\LAB3.exe
+D:\Учеба\ADO.NET\CW\LAB3\bin\Debug\LAB3.pdb
+D:\Учеба\ADO.NET\CW\LAB3\obj\Debug\LAB3.csproj.AssemblyReference.cache
+D:\Учеба\ADO.NET\CW\LAB3\obj\Debug\LAB3.csproj.SuggestedBindingRedirects.cache
+D:\Учеба\ADO.NET\CW\LAB3\obj\Debug\LAB3.csproj.CoreCompileInputs.cache
+D:\Учеба\ADO.NET\CW\LAB3\obj\Debug\LAB3.exe
+D:\Учеба\ADO.NET\CW\LAB3\obj\Debug\LAB3.pdb
