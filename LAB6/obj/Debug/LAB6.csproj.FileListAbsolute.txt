@@ -1,0 +1,8 @@
+D:\Учеба\IT_STEP\LAB6\bin\Debug\LAB6.exe.config
+D:\Учеба\IT_STEP\LAB6\bin\Debug\LAB6.exe
+D:\Учеба\IT_STEP\LAB6\bin\Debug\LAB6.pdb
+D:\Учеба\IT_STEP\LAB6\obj\Debug\LAB6.csproj.AssemblyReference.cache
+D:\Учеба\IT_STEP\LAB6\obj\Debug\LAB6.csproj.SuggestedBindingRedirects.cache
+D:\Учеба\IT_STEP\LAB6\obj\Debug\LAB6.csproj.CoreCompileInputs.cache
+D:\Учеба\IT_STEP\LAB6\obj\Debug\LAB6.exe
+D:\Учеба\IT_STEP\LAB6\obj\Debug\LAB6.pdb
