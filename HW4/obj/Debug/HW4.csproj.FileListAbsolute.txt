@@ -1,0 +1,11 @@
+D:\Учеба\ADO.NET\HW\HW4\bin\Debug\HW4.exe.config
+D:\Учеба\ADO.NET\HW\HW4\bin\Debug\HW4.exe
+D:\Учеба\ADO.NET\HW\HW4\bin\Debug\HW4.pdb
+D:\Учеба\ADO.NET\HW\HW4\obj\Debug\HW4.csproj.AssemblyReference.cache
+D:\Учеба\ADO.NET\HW\HW4\obj\Debug\HW4.csproj.SuggestedBindingRedirects.cache
+D:\Учеба\ADO.NET\HW\HW4\obj\Debug\HW4.Form1.resources
+D:\Учеба\ADO.NET\HW\HW4\obj\Debug\HW4.Properties.Resources.resources
+D:\Учеба\ADO.NET\HW\HW4\obj\Debug\HW4.csproj.GenerateResource.cache
+D:\Учеба\ADO.NET\HW\HW4\obj\Debug\HW4.csproj.CoreCompileInputs.cache
+D:\Учеба\ADO.NET\HW\HW4\obj\Debug\HW4.exe
+D:\Учеба\ADO.NET\HW\HW4\obj\Debug\HW4.pdb
