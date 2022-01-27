@@ -1,0 +1,11 @@
+D:\Учеба\IT_STEP\HW5\bin\Debug\HW5.exe.config
+D:\Учеба\IT_STEP\HW5\bin\Debug\HW5.exe
+D:\Учеба\IT_STEP\HW5\bin\Debug\HW5.pdb
+D:\Учеба\IT_STEP\HW5\obj\Debug\HW5.csproj.AssemblyReference.cache
+D:\Учеба\IT_STEP\HW5\obj\Debug\HW5.csproj.SuggestedBindingRedirects.cache
+D:\Учеба\IT_STEP\HW5\obj\Debug\HW5.Form1.resources
+D:\Учеба\IT_STEP\HW5\obj\Debug\HW5.Properties.Resources.resources
+D:\Учеба\IT_STEP\HW5\obj\Debug\HW5.csproj.GenerateResource.cache
+D:\Учеба\IT_STEP\HW5\obj\Debug\HW5.csproj.CoreCompileInputs.cache
+D:\Учеба\IT_STEP\HW5\obj\Debug\HW5.exe
+D:\Учеба\IT_STEP\HW5\obj\Debug\HW5.pdb
