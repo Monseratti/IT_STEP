@@ -1,0 +1,17 @@
+D:\Учеба\IT_STEP\LAB12\bin\Debug\LAB12.exe.config
+D:\Учеба\IT_STEP\LAB12\bin\Debug\LAB12.exe
+D:\Учеба\IT_STEP\LAB12\bin\Debug\LAB12.pdb
+D:\Учеба\IT_STEP\LAB12\bin\Debug\EntityFramework.dll
+D:\Учеба\IT_STEP\LAB12\bin\Debug\EntityFramework.SqlServer.dll
+D:\Учеба\IT_STEP\LAB12\bin\Debug\EntityFramework.xml
+D:\Учеба\IT_STEP\LAB12\bin\Debug\EntityFramework.SqlServer.xml
+D:\Учеба\IT_STEP\LAB12\obj\Debug\LAB12.csproj.AssemblyReference.cache
+D:\Учеба\IT_STEP\LAB12\obj\Debug\LAB12.csproj.SuggestedBindingRedirects.cache
+D:\Учеба\IT_STEP\LAB12\obj\Debug\LAB12.Form1.resources
+D:\Учеба\IT_STEP\LAB12\obj\Debug\LAB12.Properties.Resources.resources
+D:\Учеба\IT_STEP\LAB12\obj\Debug\LAB12.csproj.GenerateResource.cache
+D:\Учеба\IT_STEP\LAB12\obj\Debug\LAB12.csproj.CoreCompileInputs.cache
+D:\Учеба\IT_STEP\LAB12\obj\Debug\LAB12.csproj.CopyComplete
+D:\Учеба\IT_STEP\LAB12\obj\Debug\LAB12.exe
+D:\Учеба\IT_STEP\LAB12\obj\Debug\LAB12.pdb
+D:\Учеба\IT_STEP\LAB12\obj\Debug\LAB12.Form2.resources
