@@ -15,22 +15,29 @@ namespace ConsoleApp2
 
         public Program()
         {
-            connection = new SqlConnection(ConfigurationManager.ConnectionStrings["Library"].ConnectionString);
+            string cs = ConfigurationManager.ConnectionStrings["Library"].ConnectionString;
+            const string AsyncEnabled = "Asynchronous Processing=true";
+            if (!cs.Contains(AsyncEnabled))
+            {
+                cs = String.Format($"{cs}; {AsyncEnabled}");
+            }
+            connection = new SqlConnection(cs);
         }
         
-        void ViewIsDebtors() //t1
+        async void ViewIsDebtors() //t1
         {
             try
             {
-                connection.Open();
+                //await connection.OpenAsync();
                 SqlCommand execProcedure = new SqlCommand("isDebtorProc",connection);
                 execProcedure.CommandType = System.Data.CommandType.StoredProcedure;
                 execProcedure.Parameters.Add("@IsDebtor",System.Data.SqlDbType.Bit).Value = true;
-                reader = execProcedure.ExecuteReader();
-                while (reader.Read())
+                reader = await execProcedure.ExecuteReaderAsync();
+                while (await reader.ReadAsync())
                 {
-                    Console.WriteLine(reader.GetString(1) + " " + reader.GetString(2));
+                    Console.WriteLine(await reader.GetFieldValueAsync<string>(1) + " " + await reader.GetFieldValueAsync<string>(2));
                 }
+                reader.Close();
             }
             catch (Exception ex)
             {
@@ -40,25 +47,24 @@ namespace ConsoleApp2
             }
             finally
             {
-                connection?.Close();
-                reader?.Close();
+                //connection?.Close();
             }
         }
 
-        void ViewAutors()  //t2
+        async Task ViewAutors()  //t2
         {
             try
             {
-                connection.Open();
+               // await connection.OpenAsync();
                 string sql =
                     "select a.FIRST_NAME, a.LAST_NAME from AUTORS as a join AUTORS_BOOKS as ab on ab.ID_AUTOR = a.ID_AUTOR " +
                     "join BOOKS as b on b.ID_BOOK = ab.ID_BOOK " +
                     "where b.ID_BOOK = 3;";
                 SqlCommand comm1 = new SqlCommand(sql, connection);
-                reader = comm1.ExecuteReader();
-                while (reader.Read())
+                reader = await comm1.ExecuteReaderAsync();
+                while (await reader.ReadAsync())
                 {
-                    Console.WriteLine(reader.GetString(0) + " " + reader.GetString(1));
+                    Console.WriteLine(await reader.GetFieldValueAsync<string>(0) + " " + await reader.GetFieldValueAsync<string>(1));
                 }
             }
             catch (Exception ex)
@@ -69,31 +75,30 @@ namespace ConsoleApp2
             }
             finally
             {
-                connection?.Close();
                 reader?.Close();
             }
         }
 
-        void ViewAvailableBookAndBookInSecondClient() //t3-4
+        async Task ViewAvailableBookAndBookInSecondClient() //t3-4
         {
             try
             {
-                connection.Open();
+                //await connection.OpenAsync();
                 string sql =
                     "select b.[NAME] from BOOKS as b where b.ID_BOOK not in (select cb.ID_BOOK from CLIENTS_BOOKS as cb);" +
                     "select b.[NAME] from BOOKS as b join CLIENTS_BOOKS as cb on cb.ID_BOOK = b.ID_BOOK where cb.ID_CLIENT = 2;";
                 SqlCommand comm1 = new SqlCommand(sql, connection);
-                reader = comm1.ExecuteReader();
+                reader = await comm1.ExecuteReaderAsync();
                 do
                 {
-                    while (reader.Read())
+                    while (await reader.ReadAsync())
                     {
                         for (int i = 0; i < reader.FieldCount; i++)
                         {
-                            Console.WriteLine(reader.GetString(i) + "\t");
+                            Console.WriteLine(await reader.GetFieldValueAsync<string>(i) + "\t");
                         }
                     }
-                } while (reader.NextResult());
+                } while (await reader.NextResultAsync());
                 
             }
             catch (Exception ex)
@@ -104,32 +109,32 @@ namespace ConsoleApp2
             }
             finally
             {
-                connection?.Close();
+                //connection?.Close();
                 reader?.Close();
             }
         }
 
-        void LastTwoWeeksTakeBook() //t5
+        async void LastTwoWeeksTakeBook() //t5
         {
             
          try
             {
-                connection.Open();
+                //await connection.OpenAsync();
                 string sql =
                     "select distinct b.[NAME] from BOOKS as b" +
                     " join CLIENTS_BOOKS as cb on cb.ID_BOOK = b.ID_BOOK where DateDIFF(week, cb.Date_Of_Issue, GETDATE()) <= 2";
                 SqlCommand comm1 = new SqlCommand(sql, connection);
-                reader = comm1.ExecuteReader();
+                reader = await comm1.ExecuteReaderAsync();
                 do
                 {
                     while (reader.Read())
                     {
                         for (int i = 0; i < reader.FieldCount; i++)
                         {
-                            Console.WriteLine(reader.GetString(i) + "\t");
+                            Console.WriteLine(await reader.GetFieldValueAsync<string>(i) + "\t");
                         }
                     }
-                } while (reader.NextResult());
+                } while (await reader.NextResultAsync());
 
             }
             catch (Exception ex)
@@ -140,21 +145,19 @@ namespace ConsoleApp2
             }
             finally
             {
-                connection?.Close();
                 reader?.Close();
             }
         }
 
-        void UpdateDebtors() //t6
+        async void UpdateDebtors() //t6
         {
             try
             {
-                connection.Open();
+                //await connection.OpenAsync();
                 string sql =
                     "update dbo.CLIENTS set IS_DEBTOR = 0;";
                 SqlCommand comm1 = new SqlCommand(sql, connection);
-                comm1.ExecuteNonQuery();
-
+                await comm1.ExecuteNonQueryAsync();
             }
             catch (Exception ex)
             {
@@ -164,7 +167,6 @@ namespace ConsoleApp2
             }
             finally
             {
-                connection?.Close();
                 reader?.Close();
             }
         }
@@ -173,7 +175,7 @@ namespace ConsoleApp2
         {
             try
             {
-                connection.Open();
+                //await connection.OpenAsync();
                 SqlCommand execProcedure = new SqlCommand("select * from AllbookLastYear(@clientID)", connection);
                 execProcedure.Parameters.Add("@clientID", System.Data.SqlDbType.Int).Value = 2;
                 
@@ -188,7 +190,6 @@ namespace ConsoleApp2
             }
             finally
             {
-                connection?.Close();
                 reader?.Close();
             }
         }
@@ -196,14 +197,20 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
             Program program = new Program();
-            program.ViewIsDebtors();
-            program.ViewAutors();
-            program.ViewAvailableBookAndBookInSecondClient();
-            program.LastTwoWeeksTakeBook();
-            program.UpdateDebtors();
-            Console.WriteLine();
-            program.Task7();
-
+            program.connection.Open();
+            program.F();
+            
+            program.connection.Close();
+        }
+        async void F()
+        {
+            
+            await ViewAutors();
+            await ViewAvailableBookAndBookInSecondClient();
+            ViewIsDebtors();
+            LastTwoWeeksTakeBook();
+            UpdateDebtors();
+            Task7();
         }
     }
 }
