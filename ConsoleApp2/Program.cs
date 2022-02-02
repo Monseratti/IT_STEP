@@ -28,7 +28,7 @@ namespace ConsoleApp2
         {
             try
             {
-                //await connection.OpenAsync();
+                if (connection.State != System.Data.ConnectionState.Open)  await connection.OpenAsync();
                 SqlCommand execProcedure = new SqlCommand("isDebtorProc",connection);
                 execProcedure.CommandType = System.Data.CommandType.StoredProcedure;
                 execProcedure.Parameters.Add("@IsDebtor",System.Data.SqlDbType.Bit).Value = true;
@@ -45,17 +45,13 @@ namespace ConsoleApp2
                 Console.ReadLine();
                 throw;
             }
-            finally
-            {
-                //connection?.Close();
-            }
         }
 
         async Task ViewAutors()  //t2
         {
             try
             {
-               // await connection.OpenAsync();
+                if (connection.State != System.Data.ConnectionState.Open) await connection.OpenAsync();
                 string sql =
                     "select a.FIRST_NAME, a.LAST_NAME from AUTORS as a join AUTORS_BOOKS as ab on ab.ID_AUTOR = a.ID_AUTOR " +
                     "join BOOKS as b on b.ID_BOOK = ab.ID_BOOK " +
@@ -83,7 +79,7 @@ namespace ConsoleApp2
         {
             try
             {
-                //await connection.OpenAsync();
+                if (connection.State != System.Data.ConnectionState.Open) await connection.OpenAsync();
                 string sql =
                     "select b.[NAME] from BOOKS as b where b.ID_BOOK not in (select cb.ID_BOOK from CLIENTS_BOOKS as cb);" +
                     "select b.[NAME] from BOOKS as b join CLIENTS_BOOKS as cb on cb.ID_BOOK = b.ID_BOOK where cb.ID_CLIENT = 2;";
@@ -109,7 +105,6 @@ namespace ConsoleApp2
             }
             finally
             {
-                //connection?.Close();
                 reader?.Close();
             }
         }
@@ -119,7 +114,7 @@ namespace ConsoleApp2
             
          try
             {
-                //await connection.OpenAsync();
+                if (connection.State != System.Data.ConnectionState.Open) await connection.OpenAsync();
                 string sql =
                     "select distinct b.[NAME] from BOOKS as b" +
                     " join CLIENTS_BOOKS as cb on cb.ID_BOOK = b.ID_BOOK where DateDIFF(week, cb.Date_Of_Issue, GETDATE()) <= 2";
@@ -153,7 +148,7 @@ namespace ConsoleApp2
         {
             try
             {
-                //await connection.OpenAsync();
+                if (connection.State != System.Data.ConnectionState.Open) await connection.OpenAsync();
                 string sql =
                     "update dbo.CLIENTS set IS_DEBTOR = 0;";
                 SqlCommand comm1 = new SqlCommand(sql, connection);
@@ -175,7 +170,7 @@ namespace ConsoleApp2
         {
             try
             {
-                //await connection.OpenAsync();
+                if (connection.State != System.Data.ConnectionState.Open) connection.Open();
                 SqlCommand execProcedure = new SqlCommand("select * from AllbookLastYear(@clientID)", connection);
                 execProcedure.Parameters.Add("@clientID", System.Data.SqlDbType.Int).Value = 2;
                 
@@ -197,20 +192,19 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
             Program program = new Program();
-            program.connection.Open();
-            program.F();
-            
-            program.connection.Close();
-        }
-        async void F()
-        {
-            
-            await ViewAutors();
-            await ViewAvailableBookAndBookInSecondClient();
-            ViewIsDebtors();
-            LastTwoWeeksTakeBook();
-            UpdateDebtors();
-            Task7();
+            Task task = Task.Run(() => program.ViewIsDebtors());
+            task.Wait();
+            Task task1 = Task.Run(() => program.ViewAutors());
+            task1.Wait();
+            Task task2 = Task.Run(() => program.ViewAvailableBookAndBookInSecondClient());
+            task2.Wait();
+            Task task3 = Task.Run(() => program.LastTwoWeeksTakeBook());
+            task3.Wait();
+            Task task4 = Task.Run(() => program.UpdateDebtors());
+            task4.Wait();
+            Task task5 = Task.Run(() => program.Task7());
+            task5.Wait();
+            Console.ReadLine();
         }
     }
 }
