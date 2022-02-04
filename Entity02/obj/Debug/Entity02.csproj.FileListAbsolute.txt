@@ -1,0 +1,16 @@
+D:\Учеба\IT_STEP\Entity02\bin\Debug\Entity02.exe.config
+D:\Учеба\IT_STEP\Entity02\bin\Debug\Entity02.exe
+D:\Учеба\IT_STEP\Entity02\bin\Debug\Entity02.pdb
+D:\Учеба\IT_STEP\Entity02\bin\Debug\EntityFramework.dll
+D:\Учеба\IT_STEP\Entity02\bin\Debug\EntityFramework.SqlServer.dll
+D:\Учеба\IT_STEP\Entity02\bin\Debug\EntityFramework.xml
+D:\Учеба\IT_STEP\Entity02\bin\Debug\EntityFramework.SqlServer.xml
+D:\Учеба\IT_STEP\Entity02\obj\Debug\Entity02.csproj.AssemblyReference.cache
+D:\Учеба\IT_STEP\Entity02\obj\Debug\Entity02.csproj.SuggestedBindingRedirects.cache
+D:\Учеба\IT_STEP\Entity02\obj\Debug\Entity02.csproj.CoreCompileInputs.cache
+D:\Учеба\IT_STEP\Entity02\obj\Debug\Entity02.csproj.CopyComplete
+D:\Учеба\IT_STEP\Entity02\obj\Debug\Entity02.exe
+D:\Учеба\IT_STEP\Entity02\obj\Debug\Entity02.pdb
+D:\Учеба\IT_STEP\Entity02\obj\Debug\Entity02.Migrations.InitialCreate.resources
+D:\Учеба\IT_STEP\Entity02\obj\Debug\Entity02.csproj.GenerateResource.cache
+D:\Учеба\IT_STEP\Entity02\obj\Debug\Entity02.Migrations.FirstMigration.resources
