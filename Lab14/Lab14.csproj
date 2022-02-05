@@ -74,6 +74,10 @@
     <Compile Include="Migrations\202202041834290_FM.designer.cs">
       <DependentUpon>202202041834290_FM.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202202051249233_SM.cs" />
+    <Compile Include="Migrations\202202051249233_SM.designer.cs">
+      <DependentUpon>202202051249233_SM.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -87,6 +91,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202202041834290_FM.resx">
       <DependentUpon>202202041834290_FM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202051249233_SM.resx">
+      <DependentUpon>202202051249233_SM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

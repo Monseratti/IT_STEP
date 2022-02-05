@@ -16,3 +16,4 @@ D:\Учеба\IT_STEP\Lab14\obj\Debug\Lab14.exe
 D:\Учеба\IT_STEP\Lab14\obj\Debug\Lab14.pdb
 D:\Учеба\IT_STEP\Lab14\obj\Debug\Lab14.Migrations.InitialCreate.resources
 D:\Учеба\IT_STEP\Lab14\obj\Debug\Lab14.Migrations.FM.resources
+D:\Учеба\IT_STEP\Lab14\obj\Debug\Lab14.Migrations.SM.resources
