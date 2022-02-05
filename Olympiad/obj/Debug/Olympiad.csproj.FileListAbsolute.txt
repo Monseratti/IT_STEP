@@ -1,0 +1,16 @@
+D:\Учеба\IT_STEP\Olympiad\bin\Debug\Olympiad.exe.config
+D:\Учеба\IT_STEP\Olympiad\bin\Debug\Olympiad.exe
+D:\Учеба\IT_STEP\Olympiad\bin\Debug\Olympiad.pdb
+D:\Учеба\IT_STEP\Olympiad\bin\Debug\EntityFramework.dll
+D:\Учеба\IT_STEP\Olympiad\bin\Debug\EntityFramework.SqlServer.dll
+D:\Учеба\IT_STEP\Olympiad\bin\Debug\EntityFramework.xml
+D:\Учеба\IT_STEP\Olympiad\bin\Debug\EntityFramework.SqlServer.xml
+D:\Учеба\IT_STEP\Olympiad\obj\Debug\Olympiad.csproj.AssemblyReference.cache
+D:\Учеба\IT_STEP\Olympiad\obj\Debug\Olympiad.csproj.SuggestedBindingRedirects.cache
+D:\Учеба\IT_STEP\Olympiad\obj\Debug\Olympiad.Form1.resources
+D:\Учеба\IT_STEP\Olympiad\obj\Debug\Olympiad.Properties.Resources.resources
+D:\Учеба\IT_STEP\Olympiad\obj\Debug\Olympiad.csproj.GenerateResource.cache
+D:\Учеба\IT_STEP\Olympiad\obj\Debug\Olympiad.csproj.CoreCompileInputs.cache
+D:\Учеба\IT_STEP\Olympiad\obj\Debug\Olympiad.csproj.CopyComplete
+D:\Учеба\IT_STEP\Olympiad\obj\Debug\Olympiad.exe
+D:\Учеба\IT_STEP\Olympiad\obj\Debug\Olympiad.pdb
