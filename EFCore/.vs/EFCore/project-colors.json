@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8adca505-7519-4af1-a60f-bf5380dde827": {
+      "ProjectGuid": "8adca505-7519-4af1-a60f-bf5380dde827",
+      "DisplayName": "EFCore",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

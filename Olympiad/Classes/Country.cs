@@ -9,7 +9,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Olympiad.Classes
 {
-    internal class Country
+    public class Country
     {
         [Key]
         public int Id { get; set; }

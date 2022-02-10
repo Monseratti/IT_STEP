@@ -14,3 +14,7 @@ D:\Учеба\IT_STEP\Olympiad\obj\Debug\Olympiad.csproj.CoreCompileInputs.cache
 D:\Учеба\IT_STEP\Olympiad\obj\Debug\Olympiad.csproj.CopyComplete
 D:\Учеба\IT_STEP\Olympiad\obj\Debug\Olympiad.exe
 D:\Учеба\IT_STEP\Olympiad\obj\Debug\Olympiad.pdb
+D:\Учеба\IT_STEP\Olympiad\obj\Debug\Olympiad.Migrations.InitialCreate.resources
+D:\Учеба\IT_STEP\Olympiad\obj\Debug\Olympiad.Migrations.om.resources
+D:\Учеба\IT_STEP\Olympiad\obj\Debug\Olympiad.Form2.resources
+D:\Учеба\IT_STEP\Olympiad\obj\Debug\Olympiad.Form3.resources

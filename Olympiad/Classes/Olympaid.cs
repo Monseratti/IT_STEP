@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Olympiad.Classes
 {
-    internal class Olympaid
+    public class Olympaid
     {
         public int Id { get; set; }
         public short Year { get; set; }

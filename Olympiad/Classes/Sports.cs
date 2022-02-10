@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Olympiad.Classes
 {
-    internal class Sports
+    public class Sports
     {
         public int Id { get; set; }
         [Column("SportsName")]

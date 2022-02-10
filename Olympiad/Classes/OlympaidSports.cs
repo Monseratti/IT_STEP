@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Olympiad.Classes
 {
-    internal class OlympaidSports
+    public class OlympaidSports
     {
         public int Id { get; set; }
         public int OlympaidId { get; set; }
