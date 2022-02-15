@@ -1,0 +1,11 @@
+D:\Учеба\IT_STEP\LAB16\bin\Debug\LAB16.exe.config
+D:\Учеба\IT_STEP\LAB16\bin\Debug\LAB16.exe
+D:\Учеба\IT_STEP\LAB16\bin\Debug\LAB16.pdb
+D:\Учеба\IT_STEP\LAB16\bin\Debug\Dapper.dll
+D:\Учеба\IT_STEP\LAB16\bin\Debug\Dapper.xml
+D:\Учеба\IT_STEP\LAB16\obj\Debug\LAB16.csproj.AssemblyReference.cache
+D:\Учеба\IT_STEP\LAB16\obj\Debug\LAB16.csproj.SuggestedBindingRedirects.cache
+D:\Учеба\IT_STEP\LAB16\obj\Debug\LAB16.csproj.CoreCompileInputs.cache
+D:\Учеба\IT_STEP\LAB16\obj\Debug\LAB16.csproj.CopyComplete
+D:\Учеба\IT_STEP\LAB16\obj\Debug\LAB16.exe
+D:\Учеба\IT_STEP\LAB16\obj\Debug\LAB16.pdb
