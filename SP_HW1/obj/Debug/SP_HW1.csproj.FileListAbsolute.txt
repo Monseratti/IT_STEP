@@ -1,0 +1,11 @@
+D:\Учеба\IT_STEP\SP_HW1\bin\Debug\SP_HW1.exe.config
+D:\Учеба\IT_STEP\SP_HW1\bin\Debug\SP_HW1.exe
+D:\Учеба\IT_STEP\SP_HW1\bin\Debug\SP_HW1.pdb
+D:\Учеба\IT_STEP\SP_HW1\obj\Debug\SP_HW1.csproj.AssemblyReference.cache
+D:\Учеба\IT_STEP\SP_HW1\obj\Debug\SP_HW1.csproj.SuggestedBindingRedirects.cache
+D:\Учеба\IT_STEP\SP_HW1\obj\Debug\SP_HW1.Form1.resources
+D:\Учеба\IT_STEP\SP_HW1\obj\Debug\SP_HW1.Properties.Resources.resources
+D:\Учеба\IT_STEP\SP_HW1\obj\Debug\SP_HW1.csproj.GenerateResource.cache
+D:\Учеба\IT_STEP\SP_HW1\obj\Debug\SP_HW1.csproj.CoreCompileInputs.cache
+D:\Учеба\IT_STEP\SP_HW1\obj\Debug\SP_HW1.exe
+D:\Учеба\IT_STEP\SP_HW1\obj\Debug\SP_HW1.pdb
