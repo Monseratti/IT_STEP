@@ -1,0 +1,11 @@
+D:\Учеба\IT_STEP\SP_LAB4\bin\Debug\SP_LAB4.exe.config
+D:\Учеба\IT_STEP\SP_LAB4\bin\Debug\SP_LAB4.exe
+D:\Учеба\IT_STEP\SP_LAB4\bin\Debug\SP_LAB4.pdb
+D:\Учеба\IT_STEP\SP_LAB4\obj\Debug\SP_LAB4.csproj.AssemblyReference.cache
+D:\Учеба\IT_STEP\SP_LAB4\obj\Debug\SP_LAB4.csproj.SuggestedBindingRedirects.cache
+D:\Учеба\IT_STEP\SP_LAB4\obj\Debug\SP_LAB4.csproj.CoreCompileInputs.cache
+D:\Учеба\IT_STEP\SP_LAB4\obj\Debug\SP_LAB4.exe
+D:\Учеба\IT_STEP\SP_LAB4\obj\Debug\SP_LAB4.pdb
+D:\Учеба\IT_STEP\SP_LAB4\bin\Debug\Newtonsoft.Json.dll
+D:\Учеба\IT_STEP\SP_LAB4\bin\Debug\Newtonsoft.Json.xml
+D:\Учеба\IT_STEP\SP_LAB4\obj\Debug\SP_LAB4.csproj.CopyComplete
