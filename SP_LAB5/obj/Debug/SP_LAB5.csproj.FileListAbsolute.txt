@@ -1,0 +1,8 @@
+D:\Учеба\IT_STEP\SP_LAB5\bin\Debug\SP_LAB5.exe.config
+D:\Учеба\IT_STEP\SP_LAB5\bin\Debug\SP_LAB5.exe
+D:\Учеба\IT_STEP\SP_LAB5\bin\Debug\SP_LAB5.pdb
+D:\Учеба\IT_STEP\SP_LAB5\obj\Debug\SP_LAB5.csproj.AssemblyReference.cache
+D:\Учеба\IT_STEP\SP_LAB5\obj\Debug\SP_LAB5.csproj.SuggestedBindingRedirects.cache
+D:\Учеба\IT_STEP\SP_LAB5\obj\Debug\SP_LAB5.csproj.CoreCompileInputs.cache
+D:\Учеба\IT_STEP\SP_LAB5\obj\Debug\SP_LAB5.exe
+D:\Учеба\IT_STEP\SP_LAB5\obj\Debug\SP_LAB5.pdb
