@@ -55,7 +55,6 @@ namespace SP_HW5
             }
             progressBar1.Value = 60;
             t.Start();
-            t.Join();
         }
         private void Write()
         {
