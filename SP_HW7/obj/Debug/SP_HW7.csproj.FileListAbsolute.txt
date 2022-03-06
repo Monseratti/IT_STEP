@@ -1,0 +1,8 @@
+D:\Учеба\IT_STEP\SP_HW7\bin\Debug\SP_HW7.exe.config
+D:\Учеба\IT_STEP\SP_HW7\bin\Debug\SP_HW7.exe
+D:\Учеба\IT_STEP\SP_HW7\bin\Debug\SP_HW7.pdb
+D:\Учеба\IT_STEP\SP_HW7\obj\Debug\SP_HW7.csproj.AssemblyReference.cache
+D:\Учеба\IT_STEP\SP_HW7\obj\Debug\SP_HW7.csproj.SuggestedBindingRedirects.cache
+D:\Учеба\IT_STEP\SP_HW7\obj\Debug\SP_HW7.csproj.CoreCompileInputs.cache
+D:\Учеба\IT_STEP\SP_HW7\obj\Debug\SP_HW7.exe
+D:\Учеба\IT_STEP\SP_HW7\obj\Debug\SP_HW7.pdb
