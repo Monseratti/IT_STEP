@@ -1,0 +1,11 @@
+D:\Учеба\IT_STEP\CW-1407\bin\Debug\CW-1407.exe.config
+D:\Учеба\IT_STEP\CW-1407\bin\Debug\CW-1407.exe
+D:\Учеба\IT_STEP\CW-1407\bin\Debug\CW-1407.pdb
+D:\Учеба\IT_STEP\CW-1407\obj\Debug\CW-1407.csproj.AssemblyReference.cache
+D:\Учеба\IT_STEP\CW-1407\obj\Debug\CW-1407.csproj.SuggestedBindingRedirects.cache
+D:\Учеба\IT_STEP\CW-1407\obj\Debug\CW_1407.Form1.resources
+D:\Учеба\IT_STEP\CW-1407\obj\Debug\CW_1407.Properties.Resources.resources
+D:\Учеба\IT_STEP\CW-1407\obj\Debug\CW-1407.csproj.GenerateResource.cache
+D:\Учеба\IT_STEP\CW-1407\obj\Debug\CW-1407.csproj.CoreCompileInputs.cache
+D:\Учеба\IT_STEP\CW-1407\obj\Debug\CW-1407.exe
+D:\Учеба\IT_STEP\CW-1407\obj\Debug\CW-1407.pdb
