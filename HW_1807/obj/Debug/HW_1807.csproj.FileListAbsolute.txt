@@ -1,0 +1,11 @@
+D:\Учеба\IT_STEP\HW_1807\bin\Debug\HW_1807.exe.config
+D:\Учеба\IT_STEP\HW_1807\bin\Debug\HW_1807.exe
+D:\Учеба\IT_STEP\HW_1807\bin\Debug\HW_1807.pdb
+D:\Учеба\IT_STEP\HW_1807\obj\Debug\HW_1807.csproj.AssemblyReference.cache
+D:\Учеба\IT_STEP\HW_1807\obj\Debug\HW_1807.csproj.SuggestedBindingRedirects.cache
+D:\Учеба\IT_STEP\HW_1807\obj\Debug\HW_1807.Properties.Resources.resources
+D:\Учеба\IT_STEP\HW_1807\obj\Debug\HW_1807.csproj.GenerateResource.cache
+D:\Учеба\IT_STEP\HW_1807\obj\Debug\HW_1807.csproj.CoreCompileInputs.cache
+D:\Учеба\IT_STEP\HW_1807\obj\Debug\HW_1807.exe
+D:\Учеба\IT_STEP\HW_1807\obj\Debug\HW_1807.pdb
+D:\Учеба\IT_STEP\HW_1807\obj\Debug\HW_1807.Form1.resources
