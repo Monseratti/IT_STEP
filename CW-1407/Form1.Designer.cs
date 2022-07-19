@@ -60,7 +60,7 @@
             this.listBox3.Name = "listBox3";
             this.listBox3.Size = new System.Drawing.Size(192, 199);
             this.listBox3.TabIndex = 2;
-            this.listBox3.SelectedIndexChanged += new System.EventHandler(this.listBox3_SelectedIndexChanged);
+            this.listBox3.DoubleClick += new System.EventHandler(this.listBox3_SelectedIndexChanged);
             // 
             // numericUpDown1
             // 

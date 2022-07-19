@@ -60,6 +60,7 @@ namespace CW_1407
             {
                 (listBox3.SelectedItem as SomeObject).St = SomeObject.Status.off;
                 (listBox3.SelectedItem as SomeObject).Thr.Abort();
+                s.Release();
                 create_threads.Add(listBox3.SelectedItem as SomeObject);
                 working_threads.Remove(listBox3.SelectedItem as SomeObject);
             }
@@ -67,12 +68,17 @@ namespace CW_1407
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (working_threads.Count != 0)
+            foreach (var item in working_threads)
             {
-                foreach (var item in working_threads)
-                {
-                    item.Thr.Abort();
-                }
+                item.Thr.Abort();
+            }
+            foreach (var item in waiting_threads)
+            {
+                item.Thr.Abort();
+            }
+            foreach (var item in create_threads)
+            {
+                item.Thr.Abort();
             }
         }
 
