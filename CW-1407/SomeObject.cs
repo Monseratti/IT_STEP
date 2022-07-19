@@ -38,8 +38,21 @@ namespace CW_1407
                     if (Form.s.WaitOne())
                     {
                         St = Status.working;
-                        Form.working_threads.Add(this);
-                        Form.waiting_threads.Remove(this);
+                        if (Form.InvokeRequired)
+                        {
+                            Form.Invoke(new Action(() =>
+                            {
+                                Form.working_threads.Add(this);
+                                Form.waiting_threads.Remove(this);
+                            }
+                            ));
+                        }
+                        else
+                        {
+                            Form.working_threads.Add(this);
+                            Form.waiting_threads.Remove(this);
+                        }
+
                         Form.Update();
                     }
                 }

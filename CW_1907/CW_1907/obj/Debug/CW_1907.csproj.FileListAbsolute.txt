@@ -1,0 +1,8 @@
+D:\Учеба\IT_STEP\CW_1907\CW_1907\bin\Debug\CW_1907.exe.config
+D:\Учеба\IT_STEP\CW_1907\CW_1907\bin\Debug\CW_1907.exe
+D:\Учеба\IT_STEP\CW_1907\CW_1907\bin\Debug\CW_1907.pdb
+D:\Учеба\IT_STEP\CW_1907\CW_1907\obj\Debug\CW_1907.csproj.AssemblyReference.cache
+D:\Учеба\IT_STEP\CW_1907\CW_1907\obj\Debug\CW_1907.csproj.SuggestedBindingRedirects.cache
+D:\Учеба\IT_STEP\CW_1907\CW_1907\obj\Debug\CW_1907.csproj.CoreCompileInputs.cache
+D:\Учеба\IT_STEP\CW_1907\CW_1907\obj\Debug\CW_1907.exe
+D:\Учеба\IT_STEP\CW_1907\CW_1907\obj\Debug\CW_1907.pdb

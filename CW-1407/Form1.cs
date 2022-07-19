@@ -75,5 +75,10 @@ namespace CW_1407
                 }
             }
         }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
