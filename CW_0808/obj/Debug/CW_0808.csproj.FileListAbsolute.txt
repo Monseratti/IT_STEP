@@ -1,0 +1,8 @@
+D:\Учеба\IT_STEP\CW_0808\bin\Debug\CW_0808.exe.config
+D:\Учеба\IT_STEP\CW_0808\bin\Debug\CW_0808.exe
+D:\Учеба\IT_STEP\CW_0808\bin\Debug\CW_0808.pdb
+D:\Учеба\IT_STEP\CW_0808\obj\Debug\CW_0808.csproj.AssemblyReference.cache
+D:\Учеба\IT_STEP\CW_0808\obj\Debug\CW_0808.csproj.SuggestedBindingRedirects.cache
+D:\Учеба\IT_STEP\CW_0808\obj\Debug\CW_0808.csproj.CoreCompileInputs.cache
+D:\Учеба\IT_STEP\CW_0808\obj\Debug\CW_0808.exe
+D:\Учеба\IT_STEP\CW_0808\obj\Debug\CW_0808.pdb

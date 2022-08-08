@@ -1,0 +1,8 @@
+D:\Учеба\IT_STEP\CW_0808_Client\bin\Debug\CW_0808_Client.exe.config
+D:\Учеба\IT_STEP\CW_0808_Client\bin\Debug\CW_0808_Client.exe
+D:\Учеба\IT_STEP\CW_0808_Client\bin\Debug\CW_0808_Client.pdb
+D:\Учеба\IT_STEP\CW_0808_Client\obj\Debug\CW_0808_Client.csproj.AssemblyReference.cache
+D:\Учеба\IT_STEP\CW_0808_Client\obj\Debug\CW_0808_Client.csproj.SuggestedBindingRedirects.cache
+D:\Учеба\IT_STEP\CW_0808_Client\obj\Debug\CW_0808_Client.csproj.CoreCompileInputs.cache
+D:\Учеба\IT_STEP\CW_0808_Client\obj\Debug\CW_0808_Client.exe
+D:\Учеба\IT_STEP\CW_0808_Client\obj\Debug\CW_0808_Client.pdb
