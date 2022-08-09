@@ -1,0 +1,6 @@
+D:\Учеба\IT_STEP\Goods\bin\Debug\Goods.dll
+D:\Учеба\IT_STEP\Goods\bin\Debug\Goods.pdb
+D:\Учеба\IT_STEP\Goods\obj\Debug\Goods.csproj.AssemblyReference.cache
+D:\Учеба\IT_STEP\Goods\obj\Debug\Goods.csproj.CoreCompileInputs.cache
+D:\Учеба\IT_STEP\Goods\obj\Debug\Goods.dll
+D:\Учеба\IT_STEP\Goods\obj\Debug\Goods.pdb
