@@ -1,0 +1,17 @@
+D:\Учеба\IT_STEP\HW_0908_Server\bin\Debug\HW_0908_Server.exe.config
+D:\Учеба\IT_STEP\HW_0908_Server\bin\Debug\HW_0908_Server.exe
+D:\Учеба\IT_STEP\HW_0908_Server\bin\Debug\HW_0908_Server.pdb
+D:\Учеба\IT_STEP\HW_0908_Server\obj\Debug\HW_0908_Server.csproj.AssemblyReference.cache
+D:\Учеба\IT_STEP\HW_0908_Server\obj\Debug\HW_0908_Server.csproj.SuggestedBindingRedirects.cache
+D:\Учеба\IT_STEP\HW_0908_Server\obj\Debug\HW_0908_Server.csproj.CoreCompileInputs.cache
+D:\Учеба\IT_STEP\HW_0908_Server\obj\Debug\HW_0908_Server.exe
+D:\Учеба\IT_STEP\HW_0908_Server\obj\Debug\HW_0908_Server.pdb
+D:\Учеба\IT_STEP\HW_0908_Server\bin\Debug\EntityFramework.dll
+D:\Учеба\IT_STEP\HW_0908_Server\bin\Debug\EntityFramework.SqlServer.dll
+D:\Учеба\IT_STEP\HW_0908_Server\bin\Debug\MyStreet.dll
+D:\Учеба\IT_STEP\HW_0908_Server\bin\Debug\Newtonsoft.Json.dll
+D:\Учеба\IT_STEP\HW_0908_Server\bin\Debug\EntityFramework.xml
+D:\Учеба\IT_STEP\HW_0908_Server\bin\Debug\EntityFramework.SqlServer.xml
+D:\Учеба\IT_STEP\HW_0908_Server\bin\Debug\MyStreet.pdb
+D:\Учеба\IT_STEP\HW_0908_Server\bin\Debug\Newtonsoft.Json.xml
+D:\Учеба\IT_STEP\HW_0908_Server\obj\Debug\HW_0908_Server.csproj.CopyComplete

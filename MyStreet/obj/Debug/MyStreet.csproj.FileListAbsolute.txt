@@ -1,0 +1,6 @@
+D:\Учеба\IT_STEP\MyStreet\bin\Debug\MyStreet.dll
+D:\Учеба\IT_STEP\MyStreet\bin\Debug\MyStreet.pdb
+D:\Учеба\IT_STEP\MyStreet\obj\Debug\MyStreet.csproj.AssemblyReference.cache
+D:\Учеба\IT_STEP\MyStreet\obj\Debug\MyStreet.csproj.CoreCompileInputs.cache
+D:\Учеба\IT_STEP\MyStreet\obj\Debug\MyStreet.dll
+D:\Учеба\IT_STEP\MyStreet\obj\Debug\MyStreet.pdb

@@ -1,0 +1,16 @@
+D:\Учеба\IT_STEP\HW_0908\bin\Debug\HW_0908.exe.config
+D:\Учеба\IT_STEP\HW_0908\bin\Debug\HW_0908.exe
+D:\Учеба\IT_STEP\HW_0908\bin\Debug\HW_0908.pdb
+D:\Учеба\IT_STEP\HW_0908\obj\Debug\HW_0908.csproj.AssemblyReference.cache
+D:\Учеба\IT_STEP\HW_0908\obj\Debug\HW_0908.csproj.SuggestedBindingRedirects.cache
+D:\Учеба\IT_STEP\HW_0908\obj\Debug\HW_0908.Form1.resources
+D:\Учеба\IT_STEP\HW_0908\obj\Debug\HW_0908.Properties.Resources.resources
+D:\Учеба\IT_STEP\HW_0908\obj\Debug\HW_0908.csproj.GenerateResource.cache
+D:\Учеба\IT_STEP\HW_0908\obj\Debug\HW_0908.csproj.CoreCompileInputs.cache
+D:\Учеба\IT_STEP\HW_0908\obj\Debug\HW_0908.exe
+D:\Учеба\IT_STEP\HW_0908\obj\Debug\HW_0908.pdb
+D:\Учеба\IT_STEP\HW_0908\bin\Debug\MyStreet.dll
+D:\Учеба\IT_STEP\HW_0908\bin\Debug\Newtonsoft.Json.dll
+D:\Учеба\IT_STEP\HW_0908\bin\Debug\MyStreet.pdb
+D:\Учеба\IT_STEP\HW_0908\bin\Debug\Newtonsoft.Json.xml
+D:\Учеба\IT_STEP\HW_0908\obj\Debug\HW_0908.csproj.CopyComplete
