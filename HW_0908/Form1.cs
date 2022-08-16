@@ -33,7 +33,7 @@ namespace HW_0908
             Socket socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.IP);
             try
             {
-                socket.Connect(iPEndPoint);
+                socket.ConnectAsync(iPEndPoint);
                 if (socket.Connected)
                 {
                     socket.Send(Encoding.Unicode.GetBytes(tbxID.Text));

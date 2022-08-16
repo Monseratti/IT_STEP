@@ -26,7 +26,7 @@ namespace HW_0908_Server
             {
                 while (true)
                 {
-                    Socket header = socket.Accept();
+                    Socket header = socket.AcceptAsync();
                     byte[] data = new byte[1024];
                     int bytes = 0;
                     string message = "";
