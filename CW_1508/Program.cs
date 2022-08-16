@@ -39,13 +39,19 @@ namespace CW_1508
             }
             else if (_isTimer == 1)
             {
-                Console.WriteLine(ReceiveMessage().ToString());
-                SendMessage(Console.ReadLine());
-                Console.WriteLine(ReceiveMessage().ToString());
-                SendMessage(Console.ReadLine());
                 while (true)
                 {
+                    int _messageReceive = -1;
                     Console.WriteLine(ReceiveMessage().ToString());
+                    SendMessage(Console.ReadLine());
+                    Console.WriteLine(ReceiveMessage().ToString());
+                    SendMessage(Console.ReadLine());
+                    while (_messageReceive == -1)
+                    {
+                        Console.WriteLine(ReceiveMessage().ToString());
+                        SendMessage("0");
+                        _messageReceive = int.Parse(ReceiveMessage().ToString());
+                    }
                 }
             }
         }

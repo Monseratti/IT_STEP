@@ -17,8 +17,6 @@ namespace CW_1508_Server
         static void Main(string[] args)
         {
             int _isTimer = -1;
-            string _reminger = string.Empty;
-            string _timeReminger = string.Empty;
             while (_isTimer == -1)
             {
                 _isTimer = int.Parse(ReceiveMessage().ToString());
@@ -28,7 +26,7 @@ namespace CW_1508_Server
                 try
                 {
                     Timer _timer = new Timer(TimerCallBack);
-                    _timer.Change(0,5000);
+                    _timer.Change(0, 5000);
                     while (true) { }
                 }
                 catch (SocketException sockEx)
@@ -43,25 +41,36 @@ namespace CW_1508_Server
             }
             else if (_isTimer == 1)
             {
-                SendMessage("Reminger: ");
-                while (_reminger == string.Empty) _reminger = ReceiveMessage().ToString();
-                SendMessage("Date/time: ");
-                while (_timeReminger == string.Empty) _timeReminger = ReceiveMessage().ToString();
-                TimeSpan remingerTimeSpan = DateTime.Parse(_timeReminger) - DateTime.Now;
-                try
+                while (true)
                 {
-                    Timer _timer = new Timer(RemingerCallBack,_reminger,0,0);
-                    _timer.Change((int)remingerTimeSpan.TotalMilliseconds, 0);
-                    while (true) { }
-                }
-                catch (SocketException sockEx)
-                {
-                    Console.WriteLine("Ошибка сокета:" + sockEx.Message);
+                    int _messageReceive = -1;
+                    string _reminger = string.Empty;
+                    string _timeReminger = string.Empty;
+                    SendMessage("What do you want to reminger: ");
+                    while (_reminger == string.Empty) _reminger = ReceiveMessage().ToString();
+                    SendMessage("When you want to teminger (Date/time): ");
+                    while (_timeReminger == string.Empty) _timeReminger = ReceiveMessage().ToString();
+                    _reminger = $"You asked to be reminded at {_timeReminger} next message: {_reminger}\n";
+                    TimeSpan remingerTimeSpan = DateTime.Parse(_timeReminger) - DateTime.Now;
+                    try
+                    {
+                        Timer _timer = new Timer(RemingerCallBack, _reminger, 0, 0);
+                        _timer.Change((int)remingerTimeSpan.TotalMilliseconds, 0);
+                        while (_messageReceive == -1)
+                        {
+                            _messageReceive = int.Parse(ReceiveMessage().ToString());
+                        }
+                        SendMessage("0");
+                    }
+                    catch (SocketException sockEx)
+                    {
+                        Console.WriteLine("Ошибка сокета:" + sockEx.Message);
 
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine("Ошибка:" + ex.Message);
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine("Ошибка:" + ex.Message);
+                    }
                 }
             }
 
