@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,6 +16,9 @@ namespace CW_1508
         static string RemoveIP = "127.0.0.1";
         static void Main(string[] args)
         {
+            handler = new ConsoleEventDelegate(ConsoleEventCallback);
+            SetConsoleCtrlHandler(handler, true);
+            SendMessage("0");
             Console.Write("1(reminger)/0(timer): ");
             int _isTimer = int.Parse(Console.ReadLine());
             SendMessage(_isTimer.ToString());
@@ -91,5 +95,19 @@ namespace CW_1508
                 uClient.Close();
             }
         }
+
+        static bool ConsoleEventCallback(int eventType)
+        {
+            if (eventType == 2)
+            {
+                SendMessage("-1");
+            }
+            return false;
+        }
+        static ConsoleEventDelegate handler;   // Keeps it from getting garbage collected
+                                               // Pinvoke
+        private delegate bool ConsoleEventDelegate(int eventType);
+        [DllImport("kernel32.dll", SetLastError = true)]
+        private static extern bool SetConsoleCtrlHandler(ConsoleEventDelegate callback, bool add);
     }
 }
