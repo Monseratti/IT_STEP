@@ -1,0 +1,11 @@
+D:\Учеба\IT_STEP\CW_1608_Client\bin\Debug\CW_1608_Client.exe.config
+D:\Учеба\IT_STEP\CW_1608_Client\bin\Debug\CW_1608_Client.exe
+D:\Учеба\IT_STEP\CW_1608_Client\bin\Debug\CW_1608_Client.pdb
+D:\Учеба\IT_STEP\CW_1608_Client\bin\Debug\Newtonsoft.Json.dll
+D:\Учеба\IT_STEP\CW_1608_Client\bin\Debug\Newtonsoft.Json.xml
+D:\Учеба\IT_STEP\CW_1608_Client\obj\Debug\CW_1608_Client.csproj.AssemblyReference.cache
+D:\Учеба\IT_STEP\CW_1608_Client\obj\Debug\CW_1608_Client.csproj.SuggestedBindingRedirects.cache
+D:\Учеба\IT_STEP\CW_1608_Client\obj\Debug\CW_1608_Client.csproj.CoreCompileInputs.cache
+D:\Учеба\IT_STEP\CW_1608_Client\obj\Debug\CW_1608_Client.csproj.CopyComplete
+D:\Учеба\IT_STEP\CW_1608_Client\obj\Debug\CW_1608_Client.exe
+D:\Учеба\IT_STEP\CW_1608_Client\obj\Debug\CW_1608_Client.pdb
