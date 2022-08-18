@@ -1,0 +1,11 @@
+D:\Учеба\IT_STEP\CW_1808_Client\bin\Debug\CW_1808_Client.exe.config
+D:\Учеба\IT_STEP\CW_1808_Client\bin\Debug\CW_1808_Client.exe
+D:\Учеба\IT_STEP\CW_1808_Client\bin\Debug\CW_1808_Client.pdb
+D:\Учеба\IT_STEP\CW_1808_Client\obj\Debug\CW_1808_Client.csproj.AssemblyReference.cache
+D:\Учеба\IT_STEP\CW_1808_Client\obj\Debug\CW_1808_Client.csproj.SuggestedBindingRedirects.cache
+D:\Учеба\IT_STEP\CW_1808_Client\obj\Debug\CW_1808_Client.Form1.resources
+D:\Учеба\IT_STEP\CW_1808_Client\obj\Debug\CW_1808_Client.Properties.Resources.resources
+D:\Учеба\IT_STEP\CW_1808_Client\obj\Debug\CW_1808_Client.csproj.GenerateResource.cache
+D:\Учеба\IT_STEP\CW_1808_Client\obj\Debug\CW_1808_Client.csproj.CoreCompileInputs.cache
+D:\Учеба\IT_STEP\CW_1808_Client\obj\Debug\CW_1808_Client.exe
+D:\Учеба\IT_STEP\CW_1808_Client\obj\Debug\CW_1808_Client.pdb
