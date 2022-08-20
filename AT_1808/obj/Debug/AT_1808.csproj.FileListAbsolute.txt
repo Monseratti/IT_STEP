@@ -1,0 +1,16 @@
+D:\Учеба\IT_STEP\AT_1808\bin\Debug\AT_1808.exe.config
+D:\Учеба\IT_STEP\AT_1808\bin\Debug\AT_1808.exe
+D:\Учеба\IT_STEP\AT_1808\bin\Debug\AT_1808.pdb
+D:\Учеба\IT_STEP\AT_1808\obj\Debug\AT_1808.csproj.AssemblyReference.cache
+D:\Учеба\IT_STEP\AT_1808\obj\Debug\AT_1808.csproj.SuggestedBindingRedirects.cache
+D:\Учеба\IT_STEP\AT_1808\obj\Debug\MainWindow.g.cs
+D:\Учеба\IT_STEP\AT_1808\obj\Debug\App.g.cs
+D:\Учеба\IT_STEP\AT_1808\obj\Debug\AT_1808_MarkupCompile.cache
+D:\Учеба\IT_STEP\AT_1808\obj\Debug\AT_1808_MarkupCompile.lref
+D:\Учеба\IT_STEP\AT_1808\obj\Debug\MainWindow.baml
+D:\Учеба\IT_STEP\AT_1808\obj\Debug\AT_1808.g.resources
+D:\Учеба\IT_STEP\AT_1808\obj\Debug\AT_1808.Properties.Resources.resources
+D:\Учеба\IT_STEP\AT_1808\obj\Debug\AT_1808.csproj.GenerateResource.cache
+D:\Учеба\IT_STEP\AT_1808\obj\Debug\AT_1808.csproj.CoreCompileInputs.cache
+D:\Учеба\IT_STEP\AT_1808\obj\Debug\AT_1808.exe
+D:\Учеба\IT_STEP\AT_1808\obj\Debug\AT_1808.pdb

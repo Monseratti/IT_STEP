@@ -1,0 +1,8 @@
+D:\Учеба\IT_STEP\AT_1808_Server\bin\Debug\AT_1808_Server.exe.config
+D:\Учеба\IT_STEP\AT_1808_Server\bin\Debug\AT_1808_Server.exe
+D:\Учеба\IT_STEP\AT_1808_Server\bin\Debug\AT_1808_Server.pdb
+D:\Учеба\IT_STEP\AT_1808_Server\obj\Debug\AT_1808_Server.csproj.AssemblyReference.cache
+D:\Учеба\IT_STEP\AT_1808_Server\obj\Debug\AT_1808_Server.csproj.SuggestedBindingRedirects.cache
+D:\Учеба\IT_STEP\AT_1808_Server\obj\Debug\AT_1808_Server.csproj.CoreCompileInputs.cache
+D:\Учеба\IT_STEP\AT_1808_Server\obj\Debug\AT_1808_Server.exe
+D:\Учеба\IT_STEP\AT_1808_Server\obj\Debug\AT_1808_Server.pdb
