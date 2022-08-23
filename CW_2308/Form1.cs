@@ -35,7 +35,8 @@ namespace CW_2308
                     HttpResponseMessage message = await client.SendAsync(request).ConfigureAwait(false);
                     string resp = await message.Content.ReadAsStringAsync();
                     courseList = JsonConvert.DeserializeObject<List<Course>>(resp);
-                    courseList.Add(new Course() { R030 = 980, Cc = "UAH", Exchangedate = DateTime.Today.ToShortDateString(), Rate = 1, Txt = "Українська гривня" });
+                    courseList.Add(new Course() 
+                    { R030 = 980, Cc = "UAH", Exchangedate = DateTime.Today.ToShortDateString(), Rate = 1, Txt = "Українська гривня" });
                     courseList = courseList.OrderBy(o => o.Txt).ToList();
                     comboBox1.BeginInvoke(new SetCbx(SetComboBox1Value), courseList);
                     comboBox2.BeginInvoke(new SetCbx(SetComboBox2Value), courseList);
