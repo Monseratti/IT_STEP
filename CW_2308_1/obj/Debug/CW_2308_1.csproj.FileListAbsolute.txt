@@ -1,0 +1,14 @@
+D:\Учеба\IT_STEP\CW_2308_1\bin\Debug\CW_2308_1.exe.config
+D:\Учеба\IT_STEP\CW_2308_1\bin\Debug\CW_2308_1.exe
+D:\Учеба\IT_STEP\CW_2308_1\bin\Debug\CW_2308_1.pdb
+D:\Учеба\IT_STEP\CW_2308_1\bin\Debug\Newtonsoft.Json.dll
+D:\Учеба\IT_STEP\CW_2308_1\bin\Debug\Newtonsoft.Json.xml
+D:\Учеба\IT_STEP\CW_2308_1\obj\Debug\CW_2308_1.csproj.AssemblyReference.cache
+D:\Учеба\IT_STEP\CW_2308_1\obj\Debug\CW_2308_1.csproj.SuggestedBindingRedirects.cache
+D:\Учеба\IT_STEP\CW_2308_1\obj\Debug\CW_2308_1.Form1.resources
+D:\Учеба\IT_STEP\CW_2308_1\obj\Debug\CW_2308_1.Properties.Resources.resources
+D:\Учеба\IT_STEP\CW_2308_1\obj\Debug\CW_2308_1.csproj.GenerateResource.cache
+D:\Учеба\IT_STEP\CW_2308_1\obj\Debug\CW_2308_1.csproj.CoreCompileInputs.cache
+D:\Учеба\IT_STEP\CW_2308_1\obj\Debug\CW_2308_1.csproj.CopyComplete
+D:\Учеба\IT_STEP\CW_2308_1\obj\Debug\CW_2308_1.exe
+D:\Учеба\IT_STEP\CW_2308_1\obj\Debug\CW_2308_1.pdb
