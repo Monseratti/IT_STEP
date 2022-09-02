@@ -1,0 +1,45 @@
+﻿<Window x:Class="T_T_T_Client.Settings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:T_T_T_Client"
+        xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterOwner"
+        WindowStyle="None"
+        Background="Transparent"
+        AllowsTransparency="True"
+        MouseDown="Window_MouseDown"
+        Height="200" Width="300
+        "
+        DataContext="{Binding RelativeSource={RelativeSource Self}}">
+    <Border Style="{StaticResource winSettingsStyle}">
+        <StackPanel>
+            <TextBlock Style="{StaticResource _txtBlock}" Text="User name"/>
+            <TextBox Style="{StaticResource _txtBox}" Text="{Binding Path = UserName, Mode = TwoWay}"/>
+            <Grid Height="95" Margin="5 5 5 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <StackPanel>
+                    <TextBlock Style="{StaticResource _txtBlock}" Text="Current IP"/>
+                    <TextBox Style="{StaticResource _txtBox}" Text="{Binding Path = CurrentIP, Mode = TwoWay}"/>
+                    <TextBlock Style="{StaticResource _txtBlock}" Text="Current port"/>
+                    <TextBox Style="{StaticResource _txtBox}" Text="{Binding Path = CurrentPort, Mode = TwoWay}"/>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Style="{StaticResource _txtBlock}" Text="Server IP"/>
+                    <TextBox Style="{StaticResource _txtBox}" Text="{Binding Path = ServerIP, Mode = TwoWay}"/>
+                    <TextBlock Style="{StaticResource _txtBlock}" Text="Server port"/>
+                    <TextBox Style="{StaticResource _txtBox}" Text="{Binding Path = ServerPort, Mode = TwoWay}"/>
+                </StackPanel>
+            </Grid>
+            <StackPanel Orientation="Horizontal" Height="50" HorizontalAlignment="Center">
+                <Button Name="btn_OK" Click="btn_OK_Click" Style="{StaticResource _editButton}" Margin="0 0 30 0"/>
+                <Button Name="btn_Cansel" Click="btn_Cansel_Click" Style="{StaticResource _cancelButton}"/>
+            </StackPanel>
+        </StackPanel>
+    </Border>
+</Window>

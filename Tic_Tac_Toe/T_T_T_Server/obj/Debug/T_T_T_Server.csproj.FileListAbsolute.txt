@@ -1,0 +1,13 @@
+D:\Учеба\IT_STEP\Tic_Tac_Toe\T_T_T_Server\obj\Debug\T_T_T_Server.csproj.AssemblyReference.cache
+D:\Учеба\IT_STEP\Tic_Tac_Toe\T_T_T_Server\obj\Debug\T_T_T_Server.csproj.SuggestedBindingRedirects.cache
+D:\Учеба\IT_STEP\Tic_Tac_Toe\T_T_T_Server\obj\Debug\T_T_T_Server.csproj.CoreCompileInputs.cache
+D:\Учеба\IT_STEP\Tic_Tac_Toe\T_T_T_Server\bin\Debug\T_T_T_Server.exe.config
+D:\Учеба\IT_STEP\Tic_Tac_Toe\T_T_T_Server\bin\Debug\T_T_T_Server.exe
+D:\Учеба\IT_STEP\Tic_Tac_Toe\T_T_T_Server\bin\Debug\T_T_T_Server.pdb
+D:\Учеба\IT_STEP\Tic_Tac_Toe\T_T_T_Server\bin\Debug\Class_User.dll
+D:\Учеба\IT_STEP\Tic_Tac_Toe\T_T_T_Server\bin\Debug\Newtonsoft.Json.dll
+D:\Учеба\IT_STEP\Tic_Tac_Toe\T_T_T_Server\bin\Debug\Class_User.pdb
+D:\Учеба\IT_STEP\Tic_Tac_Toe\T_T_T_Server\bin\Debug\Newtonsoft.Json.xml
+D:\Учеба\IT_STEP\Tic_Tac_Toe\T_T_T_Server\obj\Debug\T_T_T_Server.csproj.CopyComplete
+D:\Учеба\IT_STEP\Tic_Tac_Toe\T_T_T_Server\obj\Debug\T_T_T_Server.exe
+D:\Учеба\IT_STEP\Tic_Tac_Toe\T_T_T_Server\obj\Debug\T_T_T_Server.pdb
