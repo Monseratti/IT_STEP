@@ -46,7 +46,7 @@ namespace T_T_T_Server
                     UserName = arr_resp[0];
                     IPEndPoint.Port = int.Parse(arr_resp[1]);
                     Console.WriteLine($"[{DateTime.Now}][{IPEndPoint.Address}:{IPEndPoint.Port}]: {UserName} connected");
-                    udpClient?.Close();
+                    udpClient.Close();
                     InitializeUser();
                 }
                 catch (SocketException se)
@@ -70,8 +70,18 @@ namespace T_T_T_Server
                 string json = JsonConvert.SerializeObject(newUser);
                 byte[] buffer = Encoding.Unicode.GetBytes(json);
                 udpClient.Send(buffer, buffer.Length, IPEndPoint);
-                udpClient?.Close();
+                udpClient.Close();
                 Console.WriteLine($"[{DateTime.Now}][{IPEndPoint.Address}:{IPEndPoint.Port}]: Send parametres for {UserName}");
+                try
+                {
+                    if (Games[gameID-1]!=null)
+                    {
+                        SendGametoUsers();
+                    }
+                }
+                catch (Exception)
+                {
+                }
             }
             catch (SocketException se)
             {
@@ -88,15 +98,41 @@ namespace T_T_T_Server
             try
             {
                 Games[gameID].User_Two = newUser;
-                newUser.GamePort = Games[gameID].GamePort;
                 newUser.Mark = "O";
+                newUser.UserIP = IPEndPoint.Address.ToString();
+                newUser.UserPort = IPEndPoint.Port;
                 gameID++;
             }
             catch (Exception)
             {
                 Games.Add(new Game() { Id = gameID, GamePort = Ports[gameID], User_One = newUser });
-                newUser.GamePort = Ports[gameID];
                 newUser.Mark = "X";
+                newUser.UserIP = IPEndPoint.Address.ToString();
+                newUser.UserPort = IPEndPoint.Port;
+            }
+        }
+
+        static void SendGametoUsers()
+        {
+            try
+            {
+                string json = JsonConvert.SerializeObject(Games[gameID-1]);
+                byte[] buffer = Encoding.Unicode.GetBytes(json);
+                UdpClient udpClient = new UdpClient();
+                udpClient.Send(buffer, buffer.Length, new IPEndPoint(IPAddress.Parse(Games[gameID-1].User_One.UserIP), Games[gameID-1].User_One.UserPort));
+                udpClient.Close();
+                udpClient = new UdpClient();
+                udpClient.Send(buffer, buffer.Length, new IPEndPoint(IPAddress.Parse(Games[gameID-1].User_Two.UserIP), Games[gameID-1].User_Two.UserPort));
+                udpClient.Close();
+                Console.WriteLine($"[{DateTime.Now}][Game:{Games[gameID-1].Id};{Games[gameID-1].GamePort}]: Send game to {Games[gameID-1].User_One.Name}, {Games[gameID-1].User_Two.Name}");
+            }
+            catch (SocketException se)
+            {
+                Console.WriteLine($"Socket error: {se.Message}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
             }
         }
     }

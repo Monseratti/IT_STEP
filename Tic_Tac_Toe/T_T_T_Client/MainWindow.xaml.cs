@@ -36,6 +36,7 @@ namespace T_T_T_Client
         public int ServerPort { get; set; }
         public int CurrentPort { get; set; }
         public User User { get; set; }
+        public Game CurrentGame { get; set; }
 
         #endregion
 
@@ -47,8 +48,22 @@ namespace T_T_T_Client
 
         #region Windows Control
 
+        private void ButtonEnabled()
+        {
+            f0.IsEnabled = f0.IsEnabled != true;
+            f1.IsEnabled = f1.IsEnabled != true;
+            f2.IsEnabled = f2.IsEnabled != true;
+            f3.IsEnabled = f3.IsEnabled != true;
+            f4.IsEnabled = f4.IsEnabled != true;
+            f5.IsEnabled = f5.IsEnabled != true;
+            f6.IsEnabled = f6.IsEnabled != true;
+            f7.IsEnabled = f7.IsEnabled != true;
+            f8.IsEnabled = f8.IsEnabled != true;
+        }
+
         private void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
+            ButtonEnabled();
             Btn_Settings_Click(new Button(), new RoutedEventArgs());
         }
 
@@ -134,9 +149,35 @@ namespace T_T_T_Client
                     string strResult = Encoding.Unicode.GetString(responce);
                     User = JsonConvert.DeserializeObject<User>(strResult);
                     uClient.Close();
+                    GetCurrentGame();
+                }
+                catch (SocketException se)
+                {
+                    MessageBox.Show($"Socket error: {se.Message}");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error: {ex.Message}");
+                }
+            }
+        }
+
+        private void GetCurrentGame()
+        {
+            while (CurrentGame == null)
+            {
+                try
+                {
+                    UdpClient uClient_Game = new UdpClient(CurrentPort);
+                    IPEndPoint ipEnd_Game = null;
+                    byte[] responce_Game = uClient_Game.Receive(ref ipEnd_Game);
+                    string strResult_Game = Encoding.Unicode.GetString(responce_Game);
+                    CurrentGame = JsonConvert.DeserializeObject<Game>(strResult_Game);
+                    uClient_Game.Close();
                     Dispatcher.Invoke(() =>
                     {
-                        _title.Text = $"{User.Name};{User.GamePort}:{User.GameID}";
+                        ButtonEnabled();
+                        _title.Text = $"{ User.Name}";
                     });
                 }
                 catch (SocketException se)
